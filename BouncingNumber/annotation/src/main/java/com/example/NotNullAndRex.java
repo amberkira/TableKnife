@@ -1,4 +1,4 @@
-package com.example.annotations;
+package com.example;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
@@ -10,7 +10,7 @@ import java.lang.annotation.Target;
  */
 @Retention(RetentionPolicy.CLASS)
 @Target(ElementType.TYPE)
-public @interface MatchRex {
+public @interface NotNullAndRex {
     int value();
     String rex();
 }
